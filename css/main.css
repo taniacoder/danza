@@ -1,0 +1,175 @@
+body{
+	font-family: "Latolight";
+	box-sizing: border-box;
+}
+header {
+	padding-top: 30px;
+	padding-bottom: 15px; 
+	text-align: center;
+}
+header .menu {
+	padding-left: 270px;
+}
+header nav ul{
+	list-style: none;
+	text-align: center;
+}
+header nav ul li {
+	float: left;
+	padding: 30px 15px;
+}
+header nav ul li a {
+	height: 23px;
+	padding-right: 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(83, 88, 95)!important;
+}
+header nav ul li a:hover{
+	color: #000000;
+}
+/*SOBRE NOSOTROS*/
+.sobre {
+	background-image: url("../img/dance_7.jpg");
+	background-repeat: no-repeat;
+	background-size: 135%;
+	background-position: center left;
+	height: 440px;
+}
+.opacity {
+	width: 500px;
+	height: 180px;
+	text-align: center;
+	padding: 40px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	margin: auto;
+	margin-top: 100px;
+}
+/* PILAR*/
+.pilar {
+	background-image: url("../img/cubes.png");
+
+	padding: 80px 0;
+}
+.pilar .col-4 {
+	text-align: center;
+	padding: 0 40px;
+} 
+.pilar h2 {
+	padding-bottom: 20px;
+	margin-bottom:  20px;
+	border-bottom: 1px grey solid;
+}
+/*instructores*/
+
+.instructores {
+	padding: 40px 100px;
+}
+.instructores h2 {
+	text-align: center;
+
+}
+.instructores h3 {
+	padding: 16px 0;
+}
+.cut img {
+    width: 250px;
+    height: 220px;
+    margin-bottom: 20px;
+ }
+.cut {
+	overflow: hidden;
+	width: 250px;
+	height: 180px;
+
+}
+.instructores .row {
+	margin-bottom: 50px;
+}
+/*FRASE*/
+.frase {
+	background-image: url("../img/cubes.png");
+	padding: 90px 0;
+	font-style: italic;
+}
+.frase h2 {
+	text-align: center;
+	font-size: 45px;
+}
+/*CONTACTANOS*/
+.contactanos {
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	height: 500px;
+	padding: 60px 100px;
+}
+/*changes forms*/
+input {
+	outline: none;
+	border: 1px solid #ccc;
+}
+i {
+	color: #aeaeae;
+}
+.contacto{
+	margin-left: 0px;
+}
+.contactanos .titutlo {
+	font-size: 30px;
+}
+
+.medida{
+	width: 400px;
+	height: 50px;
+	margin: 10px;
+	display: inline-block;
+	padding: 4px 10px 10px 40px;
+}
+
+.o{
+	padding: 20px 0px 100px 38px;
+}
+.persona{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size:5%;
+	height: 50px;
+	background-position: 10px 10px;
+}
+
+.mensaje{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size:5%;
+	height: 50px;
+	background-position: 10px 10px; 
+}
+
+.lapiz{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size:5%;
+	height: 50px;
+	background-position: 10px 10px; 
+}
+.button-e {
+	background:#0A1118;
+	color:#fff;
+	display:inline-block;
+	font-size:17px;
+	margin: 10px;
+	padding:10px 0;
+	text-align:center;
+	width:400px;
+	text-decoration:none;
+}
+/*fin changes forms*/
+.pieOfColor{
+	background-color: #0B173B;
+	margin-top: 3%;
+}
+.derechos{
+	padding: 2% 2% 1%;
+	color: #fff;
+	font-size: 0.8em;
+}

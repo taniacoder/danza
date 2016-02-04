@@ -1,0 +1,139 @@
+body{
+	font-family: "Latolight";
+	box-sizing: border-box;
+}
+header {
+	padding-top: 30px;
+	padding-bottom: 15px; 
+	text-align: center;
+}
+header .menu {
+	padding-left: 270px;
+}
+header nav ul{
+	list-style: none;
+	text-align: center;
+}
+header nav ul li {
+	float: left;
+	padding: 30px 15px;
+}
+header nav ul li a {
+	height: 23px;
+	padding-right: 30px;
+	display: inline-block;
+	text-decoration: none;
+	color: #585858;
+}
+header nav ul li a:hover{
+	color: #000000;
+}
+/*ofertas*/
+.oferta {
+	padding: 50px 180px;
+	text-align: center;
+
+}
+.oferta h3 {
+	text-align: center;
+	padding-bottom: 25px;
+}
+.oferta .box-tex {
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	font-size: 15px;
+	width: 270px;
+	position: absolute;
+	bottom: 200px;
+	left: 40px;
+
+}
+.danza1 img {
+	width: 330px;
+	height:450px;
+	padding-bottom: 20px;
+
+}
+.danza1 {
+	text-align: center;
+	position: relative;
+}
+/*CONTACTANOS*/
+.contactanos {
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	height: 500px;
+	padding: 60px 100px;
+}
+/*changes forms*/
+input {
+	outline: none;
+	border: 1px solid #ccc;
+}
+i {
+	color: #aeaeae;
+}
+.contacto{
+	margin-left: 0px;
+}
+.contactanos .titutlo {
+	font-size: 30px;
+}
+
+.medida{
+	width: 400px;
+	height: 50px;
+	margin: 10px;
+	display: inline-block;
+	padding: 4px 10px 10px 40px;
+}
+
+.o{
+	padding: 20px 0px 100px 38px;
+}
+.persona{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size:5%;
+	height: 50px;
+	background-position: 10px 10px;
+}
+
+.mensaje{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size:5%;
+	height: 50px;
+	background-position: 10px 10px; 
+}
+
+.lapiz{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size:5%;
+	height: 50px;
+	background-position: 10px 10px; 
+}
+.button-e {
+	background:#0A1118;
+	color:#fff;
+	display:inline-block;
+	font-size:17px;
+	margin: 10px;
+	padding:10px 0;
+	text-align:center;
+	width:400px;
+	text-decoration:none;
+}
+/*fin changes forms*/
+.pieOfColor{
+	background-color: #0B173B;
+	margin-top: 3%;
+}
+.derechos{
+	padding: 2% 2% 1%;
+	color: #fff;
+	font-size: 0.8em;
+}
+
